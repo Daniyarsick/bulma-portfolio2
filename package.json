@@ -1,0 +1,17 @@
+{
+  "name": "bulma-project2",
+  "version": "0.0.1",
+  "description": "my bulma project with node-sass tool",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "start": "npm run build-bulma -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Annanurov Daniil",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^1.0.0",
+    "sass": "^1.72.0"
+  }
+}
